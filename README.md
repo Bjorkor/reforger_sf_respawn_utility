@@ -19,3 +19,7 @@ To use this helper plugin:
 2. Setup your Slot to spawn your Entity (tested with Characters and Vehicles, also works with randomization)
 3. Under Plugins add TRB_ScenarioFrameworkPluginRestoreSelfLayerOnDestroy
 4. Adjust the delay and other settings to your liking
+
+
+
+Special Shoutout to blackheartsix
