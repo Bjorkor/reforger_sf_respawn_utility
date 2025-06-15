@@ -1,4 +1,4 @@
-# Arma Reforger ScenarioFramework Resawn Helper Plugin
+# Arma Reforger ScenarioFramework Respawn Helper Plugin
 
 This is a mod for Arma Reforger. It does not do anyting to just install it, this is a utility for modders specifially using the ScenarioFramework. It is essentially a small bundle of built-in functions all rolled up into a more convenient wrapper. 
 
