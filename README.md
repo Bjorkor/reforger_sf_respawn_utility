@@ -7,6 +7,7 @@ This is a mod for Arma Reforger. It does not do anyting to just install it, this
 
 Adding this Plugin to a Slot that spawns an Entity will cause that Entity to respawn after it is destroyed. This differs from the existing methods by automatically targetting the entity the plugin is attached too, rather than having to specify a layer explicitly with SCR_ScenarioFrameworkActionRestoreLayerToDefault. This is ideal for copying and pasting many spawners with minimal fidgeting afterward. 
 
+https://www.youtube.com/watch?v=eshiP80aLys 
 
 ## How do I use it?
 
