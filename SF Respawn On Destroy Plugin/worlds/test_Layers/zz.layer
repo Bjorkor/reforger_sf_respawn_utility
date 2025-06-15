@@ -1,0 +1,34 @@
+GenericEntity Area1 : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Components/Area.et" {
+ coords 7104.048 103.818 6279.624
+ {
+  GenericEntity Layer1 : "{5F9FFF4BF027B3A3}Prefabs/Systems/ScenarioFramework/Components/Layer.et" {
+   coords 0.067 0.003 -0.012
+   {
+    GenericEntity Slot1 : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
+     components {
+      SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+       m_sFactionKey "US"
+       m_aPlugins {
+        TRB_ScenarioFrameworkPluginRestoreSelfLayerOnDestroy "{659E4CEACC7BB89A}" {
+         m_iDelayInSeconds 1
+         m_iDelayInSecondsMax 3
+        }
+       }
+       m_bRandomizePerFaction 1
+       m_eEntityCatalogType VEHICLE
+       m_aIncludedEditableEntityLabels {
+       }
+       m_aExcludedEditableEntityLabels {
+        51
+       }
+      }
+     }
+     coords 0.473 0.217 -2.158
+     angleX -5.351
+     angleY 0.168
+     angleZ -1.798
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,22 @@
+GameProject {
+ ID "SFRespawnOnDestroyPlugin"
+ GUID "659E4CE9D7D26B88"
+ TITLE "SenarioFramework Auto Respawn On Destroy Utility"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}
