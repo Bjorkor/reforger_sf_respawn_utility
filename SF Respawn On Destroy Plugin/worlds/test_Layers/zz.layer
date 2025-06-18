@@ -4,29 +4,42 @@ GenericEntity Area1 : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Compo
   GenericEntity Layer1 : "{5F9FFF4BF027B3A3}Prefabs/Systems/ScenarioFramework/Components/Layer.et" {
    coords 0.067 0.003 -0.012
    {
-    GenericEntity Slot1 : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
-     components {
-      SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-       m_sFactionKey "US"
-       m_aPlugins {
-        TRB_ScenarioFrameworkPluginRestoreSelfLayerOnDestroy "{659E4CEACC7BB89A}" {
-         m_iDelayInSeconds 1
-         m_iDelayInSecondsMax 3
+    $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
+     Slot1 {
+      components {
+       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+        m_sFactionKey "US"
+        m_aPlugins {
+         TRB_ScenarioFrameworkPluginRestoreLayer "{65A4B3DE23285B04}" {
+          m_LayerGetter SCR_ScenarioFrameworkGetLayerBase "{65A4B3DA4402BFAF}" {
+           m_sLayerBaseName "Slot2"
+          }
+         }
+        }
+        m_bRandomizePerFaction 1
+        m_eEntityCatalogType VEHICLE
+        m_aIncludedEditableEntityLabels {
+        }
+        m_aExcludedEditableEntityLabels {
+         51
         }
        }
-       m_bRandomizePerFaction 1
-       m_eEntityCatalogType VEHICLE
-       m_aIncludedEditableEntityLabels {
-       }
-       m_aExcludedEditableEntityLabels {
-        51
+      }
+      coords 0.473 0.217 -2.158
+      angleX -5.351
+      angleY 0.168
+      angleZ -1.798
+     }
+     Slot2 {
+      components {
+       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+        m_sFactionKey "US"
+        m_bRandomizePerFaction 1
+        m_eEntityCatalogType VEHICLE
        }
       }
+      coords -14.58 5.584 -20.066
      }
-     coords 0.473 0.217 -2.158
-     angleX -5.351
-     angleY 0.168
-     angleZ -1.798
     }
    }
   }
